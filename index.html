@@ -34,15 +34,15 @@ title: {{ site.name }}
 
   <table>
             <tr>
-            	 <th>Title</th>
-                <th>Date</th>
-                <th>Lesson</th>
+            	 <th>Date</th>
+                <th>Title</th>
+                <th>Homework due</th>
             </tr>
 	{% assign sorted_posts = site.posts | sort:"order" %}
     {% for post in sorted_posts %}
      <tr>
-              
-                 	<td align="left"> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.date }}">{{ post.date }}</a> </td>
+              <td> {{ post.date }} </td>
+                <td> {{ post.time }} </t>
 
      </tr>   
     {% endfor %}
