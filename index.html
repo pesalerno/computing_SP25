@@ -4,7 +4,7 @@ title: {{ site.name }}
 ---
 
 <div id="home">
-  <h1>Universidad Regional Amazónica IKIAM</h1>
+  <h1>St. Mary's College of Maryland</h1>
   <br>
   <br>
 
@@ -34,18 +34,18 @@ title: {{ site.name }}
 
   <table>
             <tr>
+            	 <th>Title</th>
                 <th>Date</th>
-                <th>Time</th>
                 <th>Lesson</th>
             </tr>
 	{% assign sorted_posts = site.posts | sort:"order" %}
     {% for post in sorted_posts %}
      <tr>
-                 <td> {{ post.time }} </t>
+                 <td> {{ post.title }} </t>
                  {% if post.material-type == 'ppt' %}
                  	<td> <a href="{{ post.materials }}">{{ post.title }}</a></td>
                  {% elsif post.material-type == 'no-link' %}	
-                 	<td> {{ post.title }} </td>
+                 	<td> {{ post.date }} </td>
                  {% else %}
                  	<td align="left"> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> </td>
                  {% endif %}
