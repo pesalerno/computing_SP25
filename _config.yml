@@ -1,8 +1,8 @@
 # Setup
 title:        Computing for Biologists | SMCM Spring 2025
-tagline:       
+tagline:       This will be the website for Computing for Biologists for the Spring 2025 semester at St. Marys College of Maryland. All materials will be posted here.
 baseurl:      
-url:          https://pesalerno.github.io/seminario2020/
+url:          https://pesalerno.github.io/computing_SP25/
 paginate:     1
 theme: jekyll-theme-cayman
 future: true
