@@ -41,7 +41,7 @@ title: {{ site.name }}
 	{% assign sorted_posts = site.posts | sort:"order" %}
     {% for post in sorted_posts %}
      <tr>
-                 <td> {{ post.time }} </t>
+                 <td> {{ post.date }} </t>
                  {% if post.material-type == 'ppt' %}
                  	<td> <a href="{{ post.materials }}">{{ post.title }}</a></td>
                  {% elsif post.material-type == 'no-link' %}	
