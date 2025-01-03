@@ -1,4 +1,4 @@
-# computing_SP25.github.io
+# Computing for Biologists | SMCM Spring 2025
 
 https://pesalerno.github.io/computing_SP25/
 
