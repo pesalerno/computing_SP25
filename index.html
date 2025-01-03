@@ -1,0 +1,77 @@
+---
+layout: default
+title: {{ site.name }}
+---
+
+<div id="home">
+  <h1>Universidad Regional Amazónica IKIAM</h1>
+  <br>
+  <br>
+
+	Bienvenidos a la página web oficial del <b>Seminario de Ecosistemas III</b>! 	En esta página podrán encontrar toda la información acerca del curso, el sílabo, y cualquier otro documento y contenido
+	relevante. <b>Revísela con frecuencia para encontrar nuevas noticias y actualizaciones</b>. <br> <br>
+	
+	
+	Seminario de Ecosistemas III es una cátedra interdisciplinaria la cual ha sido rediseñada para ser dictada en el primer módulo (5 semanas total de duración) del semestre virtual Junio-Septiembre 2020 de la 
+	<b>Universidad Regional Amazónica Ikiam</b>. Este curso es diseñado y dictado por PE Salerno, y está enfocado en aprender
+	acerca de métodos y tecnologías de secuenciación de próxima generación y sus aplicaciones a estudios de biodiversidad y conservación, 
+	así como también acerca de problemáticas y soluciones de divulgación para científicos y para el público en general. <br>
+	<br>  <br> 
+	
+	--------------------------------------------------------------------------------------
+	<br> <br>
+	<b>Herramientas a utilizar:</b> Durante el curso, se desarrollarán varias herramientas y capacidades tecnológicas, desde aprender el lenguaje <a href="https://www.markdownguide.org/">Markdown</a>, 
+	el cual tiene múltiples usos académicos y técnicos, hasta manejar y publicar colaboraciones bioinformáticas a través de repositorios  <a href="https://www.howtogeek.com/180167/htg-explains-what-is-github-and-what-do-geeks-use-it-for/">github</a>, desarrollo de páginas 
+	web profesionales, y utilización de software de audio para producción de programas cortos de radio (podcasts).
+	<br> <br>
+	
+	<b>Estudio de caso:</b> Utilizaremos el caso real de la situación de la pandemia mundial COVID ocasionada por el SARS-CoV-2 como 
+	un estudio de caso de los retos principales de comunicación y divulgación científica, tanto para científicos como para el público general, 
+	y afincándonos en publicaciones relacionadas con genómica e interacciones ecológicas/ecosistémicas de COVID.<br> <br>
+	
+	
+	
+	
+	<b>Formato del curso:</b> Muchos aspectos del curso serán autoguiados, es decir, que haciendo uso del cronograma de actividades (abajo) y el sílabo
+	el estudiante podra autoenseñarse la mayor cantidad del contenido. A veces habrán actividades obligatoriamente 
+	presenciales, es decir en videollamada, y el tipo de actividad del día será indicado en los detalles de cada semana. 
+	Aca pueden encontrar el <b> <a href="https://github.com/pesalerno/seminario2020/blob/master/files/Silabo_Seminario-Ecosistemas-junio-2020.pdf">sílabo oficial del curso</a></b>. <br><br>
+	
+	<b>Horas de Atención:</b> para garantizar atención rápida a los alumnos todos los días, con excepción de los jueves, <b>estaré
+	disponible para consultas entre 11 y 12 am</b>, pero si requieren atencion fuera de esas horas por favor agenden directamente 
+	conmigo con antelación. 
+	Si necesitan hacer alguna consulta fuera de esas horas, entiendan que
+	la respuesta no será inmediata. Por principio, no respondere correos entre 8pm y 7am, pero por supuesto ustedes pueden mandar
+	sus preguntas via correo electronico en cualquier momento del dia. 
+	
+
+</div>
+<br> <br>
+<div>
+
+  <h1>Cronograma y Materiales del Curso</h1>
+
+  <table>
+            <tr>
+                <th>Fecha</th>
+                <th>Tema</th>
+                <th>Tipo de Lección</th>
+            </tr>
+	{% assign sorted_posts = site.posts | sort:"order" %}
+    {% for post in sorted_posts %}
+     <tr>
+                 <td> {{ post.time }} </t>
+                 {% if post.material-type == 'ppt' %}
+                 	<td> <a href="{{ post.materials }}">{{ post.title }}</a></td>
+                 {% elsif post.material-type == 'no-link' %}	
+                 	<td> {{ post.title }} </td>
+                 {% else %}
+                 	<td align="left"> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> </td>
+                 {% endif %}
+                 <td> {{ post.lesson-type }} </td> 
+     </tr>   
+    {% endfor %}
+    </table>
+</div>
+
+

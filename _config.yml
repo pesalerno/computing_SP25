@@ -1,0 +1,25 @@
+# Setup
+title:        Computing for Biologists | SMCM Spring 2025
+tagline:       
+baseurl:      
+url:          https://pesalerno.github.io/seminario2020/
+paginate:     1
+theme: jekyll-theme-cayman
+future: true
+
+# About/contact
+author:
+ name:       Patricia Salerno
+ url:        https://patriciasalerno.wixsite.com/tepui
+
+# Gems
+plugins:
+  - jekyll-paginate
+  
+# Google services
+google_analytics: UA-144489144-1
+
+#Others
+site:
+ 
+
