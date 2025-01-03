@@ -47,7 +47,7 @@ title: {{ site.name }}
                  {% elsif post.material-type == 'no-link' %}	
                  	<td> {{ post.date }} </td>
                  {% else %}
-                 	<td align="left"> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> </td>
+                 	<td align="left"> <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.date }}">{{ post.title }}</a> </td>
                  {% endif %}
                  <td> {{ post.lesson-type }} </td> 
      </tr>   
