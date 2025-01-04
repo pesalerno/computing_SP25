@@ -2,13 +2,14 @@
 layout: default
 order: 1
 title:  "Intro to class and starting with shell"
-date: Week 1
-time: 
+date: "2025-01-14"
+time: 08:30
 categories: main
 instructor: 
-materials: https://github.com/pesalerno/computing_SP25/edit/master/2025-01-28-3_Week_3.md
+lesson: https://github.com/pesalerno/computing_SP25/edit/master/Week_1-1_Week_1.md
 material-type: 
-lesson-type: 
+lesson-type: yes
+
 ---
 
 <a href="https://pesalerno.github.io/seminario2020/"><button>Inicio</button></a>    <a href="https://pesalerno.github.io/seminario2020/main/2020/06/02/2_Semana_2.html"><button>Siguiente Actividad</button></a>
