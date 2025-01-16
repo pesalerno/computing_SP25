@@ -1,4 +1,6 @@
-#Assignment Week 1 | Command line in the shell
+Assignment Week 1 | Command line in the shell
+--------------------------
+
 
 >NAME: Patricia Salerno
 
