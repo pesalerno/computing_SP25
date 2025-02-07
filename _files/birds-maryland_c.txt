@@ -1,0 +1,84 @@
+Barnacle goose, Branta leucopsis (R)
+Cackling goose, Branta hutchinsii
+Canada goose, Branta canadensis
+Mute swan, Cygnus olor (I)
+Black swan, Cygnus atratus (EO)
+Trumpeter swan, Cygnus buccinator (Xp)[4]
+Tundra swan, Cygnus columbianus
+Wood duck, Aix sponsa
+Baikal teal, Sibirionetta formosa (QO)
+Blue-winged teal, Spatula discors
+Cinnamon teal, Spatula cyanoptera (R)
+Northern shoveler, Spatula clypeata
+Gadwall, Mareca strepera
+Falcated duck, Mareca falcata (QO)
+Eurasian wigeon, Mareca penelope
+American wigeon, Mareca americana
+Mallard, Anas platyrhynchos
+Mottled duck, Anas fulvigula (R)
+American black duck, Anas rubripes
+Northern pintail, Anas acuta
+Green-winged teal, Anas crecca
+Canvasback, Aythya valisineria
+Redhead, Aythya americana
+Ring-necked duck, Aythya collaris
+Tufted duck, Aythya fuligula (R)
+Greater scaup, Aythya marila
+Lesser scaup, Aythya affinis
+King eider, Somateria spectabilis (R*)
+Common eider, Somateria mollissima (R*)
+Harlequin duck, Histrionicus histrionicus (R*)
+Surf scoter, Melanitta perspicillata
+White-winged scoter, Melanitta deglandi
+Black scoter, Melanitta americana
+Long-tailed duck, Clangula hyemalis
+Bufflehead, Bucephala albeola
+Falcated duck, Mareca falcata (QO)
+Eurasian wigeon, Mareca penelope
+American wigeon, Mareca americana
+Mallard, Anas platyrhynchos
+Mottled duck, Anas fulvigula (R)
+American black duck, Anas rubripes
+Northern pintail, Anas acuta
+Mute swan, Cygnus olor (I)
+Black swan, Cygnus atratus (EO)
+Trumpeter swan, Cygnus buccinator (Xp)[4]
+Tundra swan, Cygnus columbianus
+Wood duck, Aix sponsa
+Baikal teal, Sibirionetta formosa (QO)
+Blue-winged teal, Spatula discors
+Cinnamon teal, Spatula cyanoptera (R)
+Northern shoveler, Spatula clypeata
+Gadwall, Mareca strepera
+Falcated duck, Mareca falcata (QO)
+Eurasian wigeon, Mareca penelope
+American wigeon, Mareca americana
+Green-winged teal, Anas crecca
+Canvasback, Aythya valisineria
+Redhead, Aythya americana
+Ring-necked duck, Aythya collaris
+Tufted duck, Aythya fuligula (R)
+Greater scaup, Aythya marila
+Lesser scaup, Aythya affinis
+King eider, Somateria spectabilis (R*)
+Common eider, Somateria mollissima (R*)
+Harlequin duck, Histrionicus histrionicus (R*)
+Surf scoter, Melanitta perspicillata
+White-winged scoter, Melanitta deglandi
+Black scoter, Melanitta americana
+Long-tailed duck, Clangula hyemalis
+Bufflehead, Bucephala albeola
+Falcated duck, Mareca falcata (QO)
+Eurasian wigeon, Mareca penelope
+American wigeon, Mareca americana
+Mallard, Anas platyrhynchos
+Eurasian wigeon, Mareca penelope
+American wigeon, Mareca americana
+Green-winged teal, Anas crecca
+Eurasian wigeon, Mareca penelope
+American wigeon, Mareca americana
+Mallard, Anas platyrhynchos
+Ring-necked duck, Aythya collaris
+Tufted duck, Aythya fuligula (R)
+Greater scaup, Aythya marila
+Lesser scaup, Aythya affinis
